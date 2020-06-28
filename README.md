@@ -1,0 +1,1 @@
+#Proyecto final Inventario Web desarollado con la tecnologia JSP, el patron de diseño MVC, DAO, Factory, y el framework de diseño Bootstrap, se implemeto la tecnologia jasperreport para la generacion de reportes en formato PDF
