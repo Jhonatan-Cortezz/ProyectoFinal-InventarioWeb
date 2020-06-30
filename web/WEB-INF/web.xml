@@ -4,9 +4,33 @@
         <servlet-name>Index</servlet-name>
         <servlet-class>Controller.Index</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Categorias</servlet-name>
+        <servlet-class>Controller.Categorias</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Usuarios</servlet-name>
+        <servlet-class>Controller.Usuarios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Productos</servlet-name>
+        <servlet-class>Controller.Productos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Index</servlet-name>
         <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Categorias</servlet-name>
+        <url-pattern>/categorias</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Usuarios</servlet-name>
+        <url-pattern>/usuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Productos</servlet-name>
+        <url-pattern>/productos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

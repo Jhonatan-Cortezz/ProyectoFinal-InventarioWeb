@@ -9,9 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Control de inventario</title>
+        <!--incluimos las vistas parciales de las url de librerias-->
+        <%@include file="WEB-INF/Vistas-Parciales/css-js.jspf" %>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <!--vista parcial del encabezado-->
+        <%@include file="WEB-INF/Vistas-Parciales/encabezado.jspf"%>
+        
+        <h3>!Bienvenid@¡</h3><!--Contenido de la aplicacion-->
+        
+        <!--vista parcial del pie de pagina-->
+        <%@include file="WEB-INF/Vistas-Parciales/pie.jspf"%>
     </body>
 </html>
