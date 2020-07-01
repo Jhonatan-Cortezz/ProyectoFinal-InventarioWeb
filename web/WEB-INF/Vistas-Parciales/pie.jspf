@@ -6,3 +6,10 @@
         &COPY; Jhonatan Cortez
     </div>
 </div>
+<%
+        }
+    }catch(Exception e){
+      
+        out.print("<center><h2><font color='blue'>usuario incorrecto</font><hr><h2></center>");
+    }
+   %>

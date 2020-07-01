@@ -21,7 +21,7 @@
             <a href="<%= request.getContextPath() %>/categorias?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nueva Categoria</a>
             <span><a href="Vistas-Categorias/vistaReporte.jsp" target="_blank" class="btn btn-success glyphicon glyphicon-print"> Reporte PDF</a></span>
             <h3>Listado de Categorias Registradas</h3>
-            <table class="table table-striped">
+            <table class="table table-striped table-responsive">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>

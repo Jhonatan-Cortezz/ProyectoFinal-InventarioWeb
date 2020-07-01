@@ -1,5 +1,17 @@
-<%-- any content can be specified here e.g.: --%>
+
 <%@ page pageEncoding="UTF-8" %>
+
+<% 
+      //HttpSession sesion = request.getSession(false);
+      String nombre = (String) session.getAttribute("user");
+      String usuar = (String)session.getAttribute("alea");
+      String names = (String)session.getAttribute("name");
+      try{
+        if(nombre == null){
+              out.print("<center><h2><font color='blue'>Usuario o contraseña incorrecto</font><hr><h2></center>");
+              response.sendRedirect("login.jsp");
+          }else if(nombre!=null){
+%>
 <div>
     <div>
             <nav class="navbar navbar-default black" role="navigation">
@@ -22,18 +34,9 @@
               </ul>
 
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Enlace #3</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Menú #2 <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Acción #1</a></li>
-                    <li><a href="#">Acción #2</a></li>
-                    <li><a href="#">Acción #3</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Acción #4</a></li>
-                  </ul>
+                <li><a href="#"><%= names %></a></li>
+                <li>
+                    <a href="login.jsp">Cerrar sesion</a>
                 </li>
               </ul>
             </div>

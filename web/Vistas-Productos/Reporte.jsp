@@ -1,7 +1,7 @@
 <%-- 
-    Document   : vistaReporte
-    Created on : 29-jun-2020, 20:42:05
-    Author     : Luis E. Leonor
+    Document   : Reporte
+    Created on : 07-01-2020, 10:06:18 AM
+    Author     : JHONATAN CORTEZ
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -16,11 +16,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Reporte Categorias</title>
+        <title>Reporte de Productos</title>
     </head>
     <body>
         <%                                                   // Mal redireccionada estaba la ruta
-            File reportfile = new File(application.getRealPath("./Report/Categorias.jasper"));
+            File reportfile = new File(application.getRealPath("./Report/Productos.jasper"));
             Map<String, Object> parametros = new HashMap<String, Object>();
             byte[] bytes = JasperRunManager.runReportToPdf(reportfile.getPath(), parametros, con);
             response.setContentType("application/pdf");

@@ -18,10 +18,9 @@
         <%@include file="../WEB-INF/Vistas-Parciales/encabezado.jspf"%>
         
         <div class="container">
-            <a href="<%= request.getContextPath() %>/usuarios?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nueva Usuario</a>
-            <span><a href="#" class="btn btn-success glyphicon glyphicon-print"> Reporte PDF</a></span>
+            <a href="<%= request.getContextPath() %>/usuarios?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nuevo Usuario</a>            
             <h3>Listado de Usuarios Registrados</h3>
-            <table class="table table-striped">
+            <table class="table table-striped table-responsive">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>

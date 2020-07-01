@@ -21,3 +21,41 @@
     background: #c0c0c0;
     
 }
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+  text-decoration: none;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+#login-column{
+    margin-top: 0!important;
+    margin-left: 22.5em;
+    padding-top: 0!important;
+}
+
+.center-block{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.content-login{
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+}
+
+.text-center{
+    color: #fff;
+}
+
