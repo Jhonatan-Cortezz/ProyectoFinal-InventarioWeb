@@ -8,6 +8,7 @@
 <link href="bootstrap337/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
 <link href="bootstrap337/css/bootstrap.css" rel="stylesheet" type="text/css"/>
 <link href="bootstrap337/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="bootstrap337/js/mian.js" type="text/javascript"></script>
 
 <!--JQuery-->
 <script src="bootstrap337/js/jquery-3.2.1.js" type="text/javascript"></script>
@@ -15,4 +16,3 @@
 <!--Scripts bootstrap-->
 <script src="bootstrap337/js/bootstrap.js" type="text/javascript"></script>
 <script src="bootstrap337/js/bootstrap.min.js" type="text/javascript"></script>
-

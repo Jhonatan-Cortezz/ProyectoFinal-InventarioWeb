@@ -3,14 +3,14 @@
 
 <% 
       //HttpSession sesion = request.getSession(false);
-      String nombre = (String) session.getAttribute("user");
+      String nombr = (String) session.getAttribute("user");
       String usuar = (String)session.getAttribute("alea");
       String names = (String)session.getAttribute("name");
       try{
-        if(nombre == null){
+        if(nombr == null){
               out.print("<center><h2><font color='blue'>Usuario o contraseña incorrecto</font><hr><h2></center>");
               response.sendRedirect("login.jsp");
-          }else if(nombre!=null){
+          }else if(nombr!=null){
 %>
 <div>
     <div>
@@ -36,7 +36,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><%= names %></a></li>
                 <li>
-                    <a href="login.jsp">Cerrar sesion</a>
+                    <a href="salir">Cerrar sesion</a>
                 </li>
               </ul>
             </div>

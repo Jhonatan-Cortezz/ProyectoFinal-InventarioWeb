@@ -15,7 +15,8 @@
             <a href="<%= request.getContextPath() %>/productos?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nuevo Producto</a>
             <span><a href="Vistas-Productos/Reporte.jsp" target="_blank" class="btn btn-success glyphicon glyphicon-print"> Reporte PDF</a></span>
             <h3>Registro de Prodcutos</h3>
-            <table class="table table-striped table-responsive">
+            <div id="div1">
+                <table class="table table-striped table-bordered table-sm">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
@@ -26,6 +27,7 @@
                     <th>Categoria</th>
                     <th>Descripcion</th>
                     <th>Fecha registro</th>
+                    <th>Acciones</th>
                 </tr> 
                 <%
                     for(int i = 0; i < lista.size(); i++){
@@ -53,6 +55,7 @@
                     }
                 %>
             </table>
+            </div>            
         </div>
         
         <%@include file="../WEB-INF/Vistas-Parciales/pie.jspf"%>

@@ -21,7 +21,8 @@
             <a href="<%= request.getContextPath() %>/categorias?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nueva Categoria</a>
             <span><a href="Vistas-Categorias/vistaReporte.jsp" target="_blank" class="btn btn-success glyphicon glyphicon-print"> Reporte PDF</a></span>
             <h3>Listado de Categorias Registradas</h3>
-            <table class="table table-striped table-responsive">
+            <div id="div1" class="center-block">
+                <table class="table table-striped table-bordered table-sm">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
@@ -48,6 +49,7 @@
                     }
                 %>
             </table>
+            </div>            
         </div>
         
         <!--vista parcial del pie de pagina-->

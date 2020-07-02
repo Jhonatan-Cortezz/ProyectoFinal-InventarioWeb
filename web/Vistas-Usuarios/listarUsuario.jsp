@@ -20,7 +20,8 @@
         <div class="container">
             <a href="<%= request.getContextPath() %>/usuarios?opcion=crear" class="btn btn-success btn-sm glyphicon glyphicon-pencil" role="button"> Nuevo Usuario</a>            
             <h3>Listado de Usuarios Registrados</h3>
-            <table class="table table-striped table-responsive">
+            <div id="div1">
+                <table class="table table-striped table-bordered table-sm" id="dtHorizontalExample" cellspacing="0" width="100%">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
@@ -33,6 +34,7 @@
                     <th>Pregunta</th>
                     <th>Respuesta</th>
                     <th>Fecha</th>
+                    <th>Accion</th>
                 </tr> 
                 <%
                     for(int i = 0; i < lista.size(); i++){
@@ -62,6 +64,8 @@
                     }
                 %>
             </table>
+            </div>
+            
         </div>
             
         <%@include file="../WEB-INF/Vistas-Parciales/pie.jspf"%>
