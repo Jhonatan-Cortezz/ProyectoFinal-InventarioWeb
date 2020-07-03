@@ -21,7 +21,8 @@
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
                 <h1 style="font-size: 100px; color: white;" class="mt-5">Bienvenido al Sistema de Control de Inventario</h1>
-                <p style="font-size: 30px; color: white;">Una paso adelante!</p>
+                <a href="acercade.jsp" title=""><p style="font-size: 30px; color: white;">Un paso adelante!</p></a>
+                
               </div>
              </div>
         </div>
