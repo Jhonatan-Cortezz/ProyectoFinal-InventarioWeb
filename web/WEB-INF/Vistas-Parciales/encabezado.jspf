@@ -31,6 +31,7 @@
                 <li><a href="categorias?opcion=listar">Categorias</a></li>
                 <li><a href="usuarios?opcion=listar">Usuarios</a></li>
                 <li><a href="productos?opcion=listar">Productos</a></li>
+                  <li><a href="acercade.jsp">Acerca de</a></li>
               </ul>
 
               <ul class="nav navbar-nav navbar-right">

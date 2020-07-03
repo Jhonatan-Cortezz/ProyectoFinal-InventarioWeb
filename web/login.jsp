@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Inicion de Session</title>
+        <title>Inicio de Sessión</title>
         <%@include file="WEB-INF/Vistas-Parciales/css-js.jspf" %>
     </head>
     <body class="content-login">
